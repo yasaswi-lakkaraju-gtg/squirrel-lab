@@ -1,0 +1,23 @@
+name: labs-validator
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  labs-validator:
+    name: Labs Validator
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run trivy
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: 'config'
+          hide-progress: false
+          ignore-unfixed: true
+          format: 'table'
+
