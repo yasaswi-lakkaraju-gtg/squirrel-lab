@@ -16,5 +16,5 @@ jobs:
       - name: Labs Validator
         uses: safestack-hq/labs-action@release
         env:
-          LABS_AUTH: '${{env.LABS_AUTH}}'
+          LABS_AUTH: '${{secrets.LABS_AUTH}}'
 
