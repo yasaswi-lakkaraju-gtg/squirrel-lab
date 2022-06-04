@@ -13,11 +13,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run trivy
-        uses: aquasecurity/trivy-action@master
-        with:
-          scan-type: 'config'
-          hide-progress: false
-          ignore-unfixed: true
-          format: 'table'
+      - name: Labs Validator
+        uses: safestack-hq/labs-action
 
