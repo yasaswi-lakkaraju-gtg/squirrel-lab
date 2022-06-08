@@ -5,7 +5,7 @@ Hi! In this repo is a slightly insecure Docker container, and an automated CICD 
 * Validate them against the SafeStack platform
 
 To get started, you have to perform the following:
-1. Clone this repo
+1. Fork this repo
 2. Enable actions
 3. Set a valid `LABS_AUTH` repository secret
 4. Update and commit a change to this readme - this will kick off the first action which you can track by clicking "Actions" above
