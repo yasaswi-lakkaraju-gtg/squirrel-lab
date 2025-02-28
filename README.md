@@ -15,5 +15,5 @@ To get started, you have to perform the following:
 Don't forget, you have to enable actions, then make a preliminary commit to start the CI/CD process.
 
 Feel free to update this file and let us know how you're feeling.
-
+Something new in this project
 Today I'm feeling: [update here]
